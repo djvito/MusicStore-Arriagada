@@ -1,4 +1,7 @@
+import { render } from "@testing-library/react";
 import React from "react";
+
+import CartWidget from "./CartWidget.js"
 
 const NavBar = props => {
     return (
@@ -19,6 +22,7 @@ const NavBar = props => {
                         <a className="nav-link" href="#">Percusion</a>
                     </div>
                 </div>
+                <CartWidget/>
             </div>
         </nav>
     );
